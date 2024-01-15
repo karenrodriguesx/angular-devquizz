@@ -1,0 +1,41 @@
+<div class="container w-75 mt-5 mb-5">
+  <div class="quiz-logo d-flex flex-wrap text-center">
+    <div class="w-100 mb-4"><img src="assets/images/devquizz-logo.png" alt="logo do site" width="450px"></div>
+    <div class="w-100 fs-2 mb-4">
+      <p>{{ title }}</p>
+    </div>
+  </div>
+
+  <div *ngIf="!finished">
+    <div
+      class="d-flex flex-wrap text-center rounded p-5 mb-4 shadow"
+      style="background-color: rgba(96, 34, 155, 0.523)"
+    >
+      <p class="w-100 fs-2 fw-medium">{{ questionSelected?.question }}</p>
+    </div>
+
+    <div class="row">
+      <div
+        class="col-md-6 mb-4"
+        *ngFor="let option of questionSelected?.options"
+      >
+        <button
+          class="btn-outline-quiz h-100 w-100 px-2 text-center rounded shadow"
+          (click)="optionSelected(option.alias)"
+        >
+          <p class="text-button">{{ option.name }}</p>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div
+    *ngIf="finished"
+    class="card shadow"
+    style="background-color: rgba(96, 34, 155, 0.523)"
+  >
+    <p class="fs-2 fw-medium pt-4 ps-5">O seu resultado é:</p>
+    <p class="fs-5 px-5 mb-5">{{finalResult}}</p>
+  </div>
+
+</div>

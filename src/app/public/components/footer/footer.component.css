@@ -1,0 +1,7 @@
+.icon-footer {
+    height: 2rem;
+}
+
+.icon-footer:hover {
+    background-color: rgba(78, 43, 111, 0.663);
+}
