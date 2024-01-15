@@ -63,8 +63,8 @@
     }
   ],
   "results": {
-    "A": "Você muito provavelmente seria a linguagem Java! Difícil de lidar, mas resolve problemas como ninguém.",
-    "B": "Você muito provavelmente seria a linguagem Python! Comunicativo, faz amigos facilmente, mas tem personalidade forte e pode não se dar bem com alguns.",
+    "A": "Você muito provavelmente seria a linguagem Java! No começo pode ser difícil de lidar, mas resolve problemas como ninguém.",
+    "B": "Você muito provavelmente seria a linguagem Python! Comunicativo, faz amigos facilmente, mas tem personalidade forte e pode não se dar bem com todos.",
     "C": "Você muito provavelmente seria a linguagem JavaScript! Fácil de lidar e se adapta a diferentes situações, mas acaba deixando os problemas para depois.",
     "D": "Você muito provavelmente seria a linguagem PHP! Se dá bem com a maioria, é receptivo e resolve problemas de forma rápida e eficaz."
   }
