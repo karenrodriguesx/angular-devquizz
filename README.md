@@ -12,9 +12,10 @@
 
 ### Organização de diretórios
 
-- Acessando o projeto, em [`src/app/public`](https://github.com/karenrodriguesx/angular-devquizz/tree/main/src/app/public) você encontrará os componentes Default, Menu e Footer, além da pasta `pages`
-- Em [`src/app/public/pages`](https://github.com/karenrodriguesx/angular-devquizz/tree/main/src/app/public/pages) estão os componentes dedicados às páginas do projeto
-- Os arquivos `content-list.ts` são responsáveis pelo conteúdo de cada página, como o título, textos e imagens
+- Acessando o projeto, em [`src/app/public/components`](https://github.com/karenrodriguesx/angular-devquizz/tree/main/src/app/public/components) você encontrará os componentes Quiz e Footer
+- Em [`src/app/public/pages`](https://github.com/karenrodriguesx/angular-devquizz/tree/main/src/app/public/pages) está o componente dedicado à página Home do projeto
+- Os dados são recebidos através de arquivo JSON, presente na pasta [`src/assets/data`](https://github.com/karenrodriguesx/angular-devquizz/tree/main/src/assets/data)
+- As pastas [dto](https://github.com/karenrodriguesx/angular-devquizz/tree/main/src/app/public/dto) e [service](https://github.com/karenrodriguesx/angular-devquizz/tree/main/src/app/public/service) contêm as interfaces e lógica necessárias para busca dos dados
 
 ### Rodando o projeto localmente
 
