@@ -4,7 +4,7 @@
 
 - Este projeto foi construído com Angular 16 e estilizado com Bootstrap 5.
 - O projeto contém um quiz divertido com o tema **Qual linguagem de programação você seria?**.
-- As perguntas, respostas, e resultados são autorais, o quiz foi inteiramente pensado por mim.
+- As perguntas, respostas, e resultados do quiz são **autorais**.
 
 ### Como acessar
 
